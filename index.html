@@ -6,211 +6,33 @@
 
       <link rel="stylesheet" href="./css/all.min.css" />
       <link rel="stylesheet" href="./css/bootstrap.min.css" />
-      <link rel="stylesheet" href="./css/style.css" />
-      <title>Osaka</title>
+      <link rel="stylesheet" href="./css/styles.css" />
+      <title>Customer Transactions</title>
       
       <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
    </head>
    <body>
 
 
-      <!-- Home Section -->
-    <aside class="d-flex">
-
-      <div id="leftMenu" class="sidenav ">
-        <a href="#home">Home</a>
-        <a href="#singer">Duration</a>
-        <a href="#counter">Details</a>
-        <a href="#contact">Contact</a>
-      </div>
-
-        <span style="font-size: 30px;cursor: pointer;" class="openNav">☰open</span>
-
-    </aside>
-
-    <div class="loading">
-      <span class="loader"></span>
-   </div>
-
-    <section id="home">
-      <div class="homeOverLay d-flex justify-content-center align-items-center text-center">
-          
-          <div id="home-content" >
-              <h2>Egyption Party</h2>
-              <p>Let's Have Fun</p>
-          </div>
-
-      </div>
-  </section>
-
-  <!-- Singer Section -->
-<section id="singer">
-  <div id="sliderDown" class="text-center">
-      
-      <p>
-          <button class="btn btn-danger" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample1" aria-expanded="false" aria-controls="collapseExample">
-            Singer One
-          </button>
-        </p>
-        <div class="collapse" id="collapseExample1">
-          <div class="card card-body">
-              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-          </div>
-        </div>
-
-
-      <p>
-          <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample2" aria-expanded="false" aria-controls="collapseExample">
-            Singer Two
-          </button>
-        </p>
-        <div class="collapse" id="collapseExample2">
-          <div class="card card-body">
-              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-          </div>
-        </div>
-
-
-      <p>
-          <button class="btn btn-info" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample3" aria-expanded="false" aria-controls="collapseExample">
-            Singer Three
-          </button>
-        </p>
-        <div class="collapse" id="collapseExample3">
-          <div class="card card-body">
-              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-          </div>
-        </div>
-
-
-      <p>
-          <button class="btn btn-success" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample4" aria-expanded="false" aria-controls="collapseExample">
-            Singer Four
-          </button>
-        </p>
-        <div class="collapse" id="collapseExample4">
-          <div class="card card-body">
-              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-          </div>
-        </div>
-  </div>
-</section>
-
-  <!-- Counter Section -->
-
-  <section id="counter">
-      <div class="countdown countdown-container container">
-        <div class="clock row">
-          
-          <div class="clock-item clock-days countdown-time-value col-sm-6 col-md-3">
-            <div class="wrap">
-              <div class="inner">
-                <div id="canvas-day" class="clock-canvas"></div>
-
-                <div class="text text-white">
-                  <p class="value day">0</p>
-                  <p class="type-days type-time">Days</p>
-
-                </div>
-              </div>
-            </div>
-          </div>
-
-
-          <div class="clock-item clock-hours countdown-time-value col-sm-6 col-md-3">
-            <div class="wrap">
-              <div class="inner">
-                <div id="canvas-hours" class="clock-canvas"></div>
-
-                <div class="text text-white">
-                  <p class="value hours">0</p>
-                  <p class="type-hours type-time">Hours</p>
-
-                </div>
-              </div>
-            </div>
-          </div>
-
-
-          <div class="clock-item clock-minutes countdown-time-value col-sm-6 col-md-3">
-            <div class="wrap">
-              <div class="inner">
-                <div id="canvas-minutes" class="clock-canvas"></div>
-
-                <div class="text text-white">
-                  <p class="value minutes">0</p>
-                  <p class="type-minutes type-time">Minutes</p>
-
-                </div>
-              </div>
-            </div>
-          </div>
-
-
-          <div class="clock-item clock-seconds countdown-time-value col-sm-6 col-md-3">
-            <div class="wrap">
-              <div class="inner">
-                <div id="canvas-seconds" class="clock-canvas"></div>
-
-                <div class="text text-white">
-                  <p class="value seconds">0</p>
-                  <p class="type-seconds type-time">Seconds</p>
-
-                </div>
-              </div>
-            </div>
-          </div>
-
-        </div>
-      </div>
-  </section>
-
-
-   <!-- Contact Section -->
-
-   <div class="container mt-5" id="contact">
-
-    <h1 class="text-center">JOIN US</h1>
-    <div class="row">
-      
-      <div class="col-md-6 text-center">
-        
-        <div class="contact-info my-4">
-          <h4>CONTACT INFO</h4>
-          <p class="text-center">Why you should hire me writeup Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque nascetur ridiculus mus.</p>
-          <div class="d-flex flex-wrap">
-            <i class="fa-solid fa-location-dot mx-5"></i>
-            <p>New Street 22545, Nexa Road, New York City, USA</p>
-          </div>
-          <div class="d-flex  mx-5 my-3">
-            <i class="fa-solid fa-envelope mx-5"></i>
-            <span class="text-danger">hello@uigrid.com</span>
-          </div>
-          <div class="d-flex  mx-5">
-            <i class="fa-solid fa-phone mx-5"></i>
-            <span >001-000-000-000</span>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-md-6 my-3">
-        <div class="input-group flex-nowrap">
-          <input type="text" class="form-control" placeholder="Enter Name" aria-label="Username" aria-describedby="addon-wrapping">
-        </div>
-        <div class="input-group flex-nowrap my-4">
-          <input type="text" class="form-control" placeholder="Enter Email" aria-label="Username" aria-describedby="addon-wrapping">
-        </div>
-        <div class="input-group flex-nowrap my-4">
-          <textarea type="text" class="form-control" placeholder="Enter Message" aria-label="Username" aria-describedby="addon-wrapping"></textarea>
-        </div>
-        <p><span class="text-danger">100</span> Characyer Reamining</p>
-        <button class="btn btn-danger">SEND MESSAGE</button>
-      </div>
-    </div>
-   </div>
+    <h1>Customer Transactions</h1>
+    <input type="text" id="filterName" placeholder="Filter by customer name">
+    <input type="number" id="filterAmount" placeholder="Filter by transaction amount">
+    <table id="customerTable">
+        <thead>
+            <tr>
+                <th>Customer Name</th>
+                <th>Transaction Date</th>
+                <th>Transaction Amount</th>
+            </tr>
+        </thead>
+        <tbody></tbody>
+    </table>
+    <canvas id="transactionGraph"></canvas>
+ 
 
       <script src="js/jquery-3.7.1.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
       <script src="./js/bootstrap.bundle.min.js"></script>
-      <script src="js/main.js"></script>
+      <script src="js/script.js"></script>
    </body>
 </html>
